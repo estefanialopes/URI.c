@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+   double n1,n2;
+   double l;
+
+    scanf("%lf %lf", &n1,&n2);
+    
+    l = (n1 * n2)/12;
+    printf("%.3lf\n", l);
+    return 0;
+}
