@@ -1,4 +1,5 @@
   #include <stdio.h>
+  
 int main(){
 
     int N[10], i, V;
@@ -10,6 +11,7 @@ int main(){
         printf("N[%d] = %d\n",i,V);
         V*=2;
     }
+    
     return 0;
 }
 
