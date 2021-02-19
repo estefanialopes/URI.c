@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+int IdadeD,ano,mes,dia;
+
+scanf("%d",&IdadeD);
+
+ano=IdadeD/365;
+
+mes=(IdadeD%365)/30;
+
+dia=(IdadeD%365)%30;
+
+printf("%d ano(s)\n%d mes(es)\n%d dia(s)\n",ano,mes,dia);
+
+return 0;
+
+}
