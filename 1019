@@ -15,5 +15,4 @@ Seg= (Temp-(segh*H)-(Min*60));
 printf("%d:%d:%d\n",H,Min,Seg);
 
 return 0;
-
 }
