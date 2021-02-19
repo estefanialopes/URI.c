@@ -1,0 +1,19 @@
+int main() {
+
+int Temp, H, segh, Min, Seg;
+
+segh=3600;
+
+scanf("%d", &Temp);
+
+H=(Temp/segh);
+
+Min=(Temp -(segh*H))/60;
+
+Seg= (Temp-(segh*H)-(Min*60));
+
+printf("%d:%d:%d\n",H,Min,Seg);
+
+return 0;
+
+}
